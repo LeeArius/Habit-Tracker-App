@@ -1,0 +1,79 @@
+* {
+    font-family:Comfortaa;
+}
+
+h1 {
+    padding-top: 50px;
+    font-family:Comfortaa;
+    font-weight: bolder;
+    font-size: 45;
+    text-align: center;
+}
+
+h6 {
+    font-family:Comfortaa;
+    text-align: center;
+    font-size: 15;
+    margin-top: -5;
+}
+
+p {
+    color: #ffff;
+    display: inline;
+}
+
+.subtext {
+    margin-top: 10;
+    padding-top: 100;
+    font-size: small;
+}
+
+.uText {
+    text-decoration: underline;
+    font-size: small;
+    color: white;
+}
+
+#home {
+    background-image: url(BG.png);
+    background-size: contain;
+}
+
+.dark_bg {
+    background-color: 26252F;
+    color: white;
+}
+
+#start {
+    padding: 15;
+    font-size: 18;
+    background-color: 26252F;
+    border-color: 26252F;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 300;
+}
+
+.login {
+    padding: 15 100;
+    font-size: 15;
+    background-color: D9D9D9;
+    border-color: 26252F;
+    color: 26252F;
+    border-radius: 21px;
+    position: relative;
+    margin-top: 100;
+    font-weight: bold;
+}
+
+input {
+    text-align: center;
+    padding: 15 45;
+    border-radius: 21px;
+}
+
+.form-container {
+    margin: 150 540 0 540 ;
+
+}
