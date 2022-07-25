@@ -28,6 +28,11 @@ p {
     font-size: small;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .uText {
     text-decoration: underline;
     font-size: small;

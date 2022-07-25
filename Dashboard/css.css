@@ -1,0 +1,50 @@
+* {
+    font-family:Comfortaa;
+}
+
+h1 {
+    padding-top: 50px;
+    font-family:Comfortaa;
+    font-weight: bolder;
+    font-size: 45;
+    text-align: center;
+}
+
+h6 {
+    font-family:Comfortaa;
+    text-align: center;
+    font-size: 15;
+    margin-top: -5;
+}
+
+p {
+    color: #ffff;
+    display: inline;
+}
+
+.off {
+    opacity: .8;
+}
+
+.dark_bg {
+    background-color: 26252F;
+    color: white;
+}
+
+#settings {
+    margin-top: 100;
+    margin-right: 150;
+    float: right;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    height: 350;
+    float: left;
+    margin-top: 50;
+    margin-left: 200;
+}
