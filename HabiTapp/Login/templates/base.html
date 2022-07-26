@@ -1,13 +1,16 @@
-<html>  
+<!DOCTYPE html>
+<html lang="en">
+
     <head>
-        <title> HabiTapp</title>
-        <link rel="stylesheet" href="css.css">
+        {% load static %}
+        <title>HabiTapp</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css.css' %}">
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Comfortaa'>
     </head>
 
     <body id="home">
         <h1>HabiTapp</h1>
-        <h6><p>"Your Habi</p>ts in an App with just one Tap"</h6>
+        <h6>"Your Habits in an App with just one Tap"</h6>
 
         <center><button id="start" type="button"><a href="Login Page.html">
             Get Started
