@@ -48,3 +48,99 @@ img {
     margin-top: 50;
     margin-left: 200;
 }
+
+
+div {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    width: 450;
+    height: 450;
+    background-color: white;
+    border-radius: 30px;
+    color: 26252F;
+}
+
+div p {
+    color:26252F;
+}
+
+h4 {
+    padding: 20 55;
+    display:inline-flex;
+    justify-self: center;
+}
+
+#h4 {
+    padding: 20 25% 0 25%;
+    display:inline-flex;
+    justify-self: center;
+}
+
+#switch1 {
+    position: relative;
+    left: 100;
+}
+
+#onoff1 {
+    color: 26252F;
+    position: relative;
+    left: 100;
+}
+
+#info {
+    margin-top: 24%;
+    line-height: 1.8;
+}
+
+.bigcontainer {
+    width: 90%;
+}
+
+#start, #end {
+    position: relative;
+    top: 10%;
+}
+
+#start{
+    right: 31%;
+    font-size: 15;
+}
+
+#end {
+    left: 14%;
+    font-size: 15;
+}
+
+#time, #time2 {
+    position: relative;
+    top: 12.5%;
+    font-size: 11;
+}
+
+#time {
+    right: 37.5%;
+}
+
+#time2 {
+    left: 6.25%;
+}
+
+button {
+    background-color: 26252F;
+    border: none;
+    color: white;
+    height: 50;
+    width: 50;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 35px;
+    position: relative;
+    right: 47%;
+    top: 30%;
+    margin: 0 10;
+}
