@@ -143,3 +143,28 @@ button {
     top: 30%;
     margin: 0 5;
 }
+
+#DND {
+    position: relative;
+    top: 35%;
+    left: 5.5%;
+}
+
+#grey {
+    position: relative;
+    top: 52.5%;
+    right: 7.5%;
+}
+
+#dndswitch {
+    position: relative;
+    top: 35%;
+    left: 40.5%;
+}
+
+#greyswitch {
+    position: relative;
+    top: 52.5%;
+    left: 31.4%;
+}
+
