@@ -174,20 +174,4 @@ button {
     left: 40%;
 }
 
-img {
-    height: 75;
-    width: 75;
-}
 
-.apps {
-    position: relative;
-    top: -10%;
-    left: -5%;
-    display:inline-block;
-}
-
-.apptext{
-    position: relative;
-    top: -20%;
-    display: inline-block;
-}
