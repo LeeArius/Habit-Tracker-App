@@ -1,15 +1,16 @@
 {% extends 'base1.html' %}
 
-    {% block content %}
+{% load static %}
+{% block content %}
         
         <div class="form-container">
             <form>
                 <input type="text" placeholder="User">
                 <input type="password" placeholder="Password">
                 <input type="password" placeholder="Re-enter Password">
-                <a href="Login Page.html"><button class="SignUp" type="button">SignUp</button></a>
+                <a href="../LoginPage/"><button class="SignUp" type="button">SignUp</button></a>
             </form>
-            <p class="subtext">Already have an account? <a href="Login Page.html" class="uText">Login Here</a></p></p>
+            <p class="subtext">Already have an account? <a href="../LoginPage/" class="uText">Login Here</a></p>
         </div>
 
     {% endblock content %}
