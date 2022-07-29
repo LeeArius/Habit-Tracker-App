@@ -1,14 +1,6 @@
-<html>  
-    <head>
-        <title> HabiTapp</title>
-        <link rel="stylesheet" href="css.css">
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Comfortaa'>
-    </head>
+{% extends 'base1.html' %}
 
-    <body class="dark_bg">
-
-        <h1>HabiTapp</h1>
-        <h6><p>"Your Habi</p>ts in an App with just one Tap"</h6>
+    {% block content %}
         
         <div class="form-container">
             <form>
@@ -20,6 +12,4 @@
             <p class="subtext">Already have an account? <a href="Login Page.html" class="uText">Login Here</a></p></p>
         </div>
 
-    </body>
-
-</html>
+    {% endblock content %}

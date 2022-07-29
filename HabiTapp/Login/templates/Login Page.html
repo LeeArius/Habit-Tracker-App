@@ -1,24 +1,14 @@
-<html>  
-    <head>
-        <title> HabiTapp</title>
-        <link rel="stylesheet" href="css.css">
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Comfortaa'>
-    </head>
+{% extends 'base1.html' %}
 
-    <body class="dark_bg">
+{% block content %}
 
-        <h1>HabiTapp</h1>
-        <h6><p>"Your Habi</p>ts in an App with just one Tap"</h6>
-        
         <div class="form-container">
             <form>
                 <input type="text" placeholder="User">
                 <input type="password" placeholder="Password">
-                <a href="..\Dashboard\Dashboard.html"><button class="login" type="button">Login</button></a>
+                <a href="../Dashboard/"><button class="login" type="button">Login</button></a>
             </form>
             <p class="subtext">Dont have an account? <a href="SignUp Page.html" class="uText">Sign Up Here</p></p>
         </div>
 
-    </body>
-
-</html>
+{% endblock content %}
