@@ -23,6 +23,7 @@ urlpatterns = [
     path('LoginPage/', views.LoginPage, name='LoginPage'),
     path('SignUp/', views.SignUp, name='SignUp'),
     path('Dashboard/', views.Dashboard, name='Dashboard'),
+    path('Dashboard/Date/', views.Date, name="Date"),
     path('Dashboard/WD/', views.WD),
     path('Dashboard/WD2/', views.WD2),
     path('Dashboard/FM/', views.FM),

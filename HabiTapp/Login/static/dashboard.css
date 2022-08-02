@@ -27,6 +27,10 @@ h6 {
     margin-top: -5px;
 }
 
+body {
+    overflow:hidden
+}
+
 /* Dashboard */
 
 
@@ -68,15 +72,19 @@ div p {
 
 h4 {
     color: #26252F;
-    padding: 20px 55px;
+    padding-top: 20px;
+    padding-left: 55px;
     display:inline-flex;
-    justify-items: center;
     background: none;
 }
 
 h6 {
     background: none;
     color: #26252F;
+}
+
+#info {
+    margin-top: 25%;
 }
 
 #MUA {
@@ -111,5 +119,89 @@ img {
     width: 75px;
     background: white;
 }
+
+#start, #time, #DND, #grey{
+    position: relative;
+    left: 25%;
+    top: -5%;
+}
+
+#grey {
+    position: relative;
+    top: -10%;
+}
+
+#time {
+    top: -17%;
+    font-size: 13px;
+}
+
+#end, #time2 {
+    position: relative;
+    top: -13%;
+    left: 75%;
+}
+#time2 {
+    top: -23%;
+    font-size: 13px;
+}
+
+button {
+    background-color: #26252F;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 35px;
+    position: relative;
+    top: -16%;
+    left: 25%;
+    margin: 0px 20px;
+}
+
+#dndswitch{
+    position: relative;
+    left: 75%;
+    top: -14%;
+}
+
+#greyswitch {
+    left: 75%;
+    position: relative;
+    top: -19%;
+}
+
+#WDtxt {
+    position: relative;
+    top: -10%;
+}
+
+hr {
+    background: white;
+    margin-bottom: 2%;
+}
+
+#mon, #tue, #wed, #thu, #fri, #sat, #sun {
+    height: 10cm;
+    width: 100px;
+    background-color: #d9d9d9;
+    display: inline-block;
+    position: relative;
+    margin-top: 12px;
+    left: 7%;
+    margin-left: 4%;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+h5 {
+    text-align:center ;
+    font-size: 18px;
+    position: relative;
+    top: 18px;
+}
+
 
 
