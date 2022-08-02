@@ -1,20 +1,36 @@
-<html>  
-    <head>
-        <title> HabiTapp</title>
-        <link rel="stylesheet" href="css.css">
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Comfortaa'>
-    </head>
+{% extends 'Dashboard/base_dash.html' %}
 
-    <body class="dark_bg">
+    {% load static %}
+    {% block content %}
 
-        <h1><a href="..\Home_Log_Sign\Home Page.html">HabiTapp</a></h1>
-        <h6>"Your Habits in an App with just one Tap"</h6>
-
-        <div class="div" id="bigcontainer">
+        <div id="bigcontainer">
             <h4 id="MUA">Most Used Apps</h4>
+            <br>
+            <section class="apps">
+                <img src="{% static 'messenger.webp' %}">
+            </section>
+            <p class="apptext">Messenger</p>
+            <section class="apps">
+                <img src="{% static 'messenger.webp' %}">
+            </section>
+            <p class="apptext">Messenger</p>
+            <section class="apps">
+                <img src="{% static 'messenger.webp' %}">
+            </section>
+            <p class="apptext">Messenger</p>
+            <section class="apps">
+                <img src="{% static 'messenger.webp' %}">
+            </section>
+            <p class="apptext">Messenger</p>
+            <section class="apps">
+                <img src="{% static 'messenger.webp' %}">
+            </section>
+            <p class="apptext">Messenger</p>
+            <section class="apps">
+                <img src="{% static 'messenger.webp' %}">
+            </section>
+            <p class="apptext">Messenger</p>
 
         </div>
-        
-    </body>
 
-</html>
+    {% endblock content %}

@@ -1,23 +1,12 @@
-<html>  
-    <head>
-        <title> HabiTapp</title>
-        <link rel="stylesheet" href="css.css">
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Comfortaa'>
-    </head>
+{% extends 'Dashboard/base_dash.html' %}
 
-    <body class="dark_bg">
-
-        <h1><a href="..\Home_Log_Sign\Home Page.html">HabiTapp</a></h1>
-        <h6>"Your Habits in an App with just one Tap"</h6>
+{% load static %}
+{% block content %}
 
         <div class="div">
             <h4>Focus Mode</h4>
-            <input type="checkbox" id="switch1" class="checkbox" onclick="window.location='Focus Mode2.html'"/>
-            <label for="switch1" class="toggle">
-            <p id="onoff1">Off On</p></label>
+            <input type="checkbox" id="switch1" class="checkbox" onclick="window.location='../FM2/'"/>
             <h6 id="info">Pause distracting apps when <br> you need time to focus</h6>
         </div>
 
-    </body>
-
-</html>
+{% endblock content %}

@@ -42,9 +42,9 @@ a {
     text-decoration: none;
 }
 
-img {
+#img {
     height: 350;
-    float: left;
+    width: 350;
     margin-top: 50;
     margin-left: 200;
 }
@@ -91,7 +91,12 @@ h4 {
 }
 
 #info {
-    margin-top: 25%;
+    margin-top: 20%;
+    line-height: 1.8;
+}
+#info1 {
+    position: relative; 
+    top: 65%;
     line-height: 1.8;
 }
 
@@ -180,14 +185,34 @@ img {
 }
 
 .apps {
-    position: relative;
-    top: -10%;
-    left: -5%;
+    margin: 25 100;
     display:inline-block;
 }
 
 .apptext{
-    position: relative;
-    top: -20%;
     display: inline-block;
+    position: relative;
+    top: -10%;
+    right: 30;
+}
+
+#date {
+    overflow-y: hidden;
+}
+
+hr {
+    background: white;
+    margin-bottom: 2%;
+}
+
+#mon, #tue, #wed, #thu, #fri, #sat, #sun {
+    height: 65%;
+    width: 100px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    margin-top: 12px;
+    left: 7%;
+    margin-left: 4%;
+    border-radius: 20px 20px 0px 0px ;
 }

@@ -1,34 +1,13 @@
-<html>  
-    <head>
-        <title> HabiTapp</title>
-        <link rel="stylesheet" href="css.css">
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Comfortaa'>
-    </head>
+{% extends 'Dashboard/base_dash.html' %}
 
-    <body class="dark_bg">
+    {% load static %}
+    {% block content %}
 
-        <h1><a href="..\Home_Log_Sign\Home Page.html">HabiTapp</a></h1>
-        <h6>"Your Habits in an App with just one Tap"</h6>
-
-        <div class="div" id="bigcontainer">
+        <div id="bigcontainer">
             <h4 id="h4">Wind Down</h4>
+            <input type="checkbox" id="switch" class="checkbox" onclick="window.location='../WD/'"/>
             <p id="start">Start</p><p id="end">End</p>
             <p id="time">10:00 PM</p> <p id="time2">10:00 PM</p>
-            <input type="checkbox" id="switch" class="checkbox" onclick="window.location='Wind Down.html'"/>
-            <label for="switch" class="toggle">
-            <p id="onoff">Off On</p></label>
-
-            <p id="DND">Do Not Disturb</p>
-                <input type="checkbox" id="dndswitch" class="checkbox"/>
-                <label for="dndswitch" class="toggle">
-                <!-- <p id="onoff">Off On</p></label> -->
-            <p id="grey">Greyscale</p>
-                <input type="checkbox" id="greyswitch" class="checkbox"/>
-                <label for="greyswitch" class="toggle">
-                <!-- <p id="onoff">Off On</p></label> -->
-
-            <h6 id="info">Your schedule will start again when Wind Down is on</h6>
-        </div>
 
             <button type="button" id="btn" onclick="DayFunc()">S</button>
             <button type="button" >M</button>
@@ -38,8 +17,12 @@
             <button type="button" >F</button>
             <button type="button" >S</button>
 
-        <script src="script.js"></script>
-        
-    </body>
+            <p id="DND">Do Not Disturb</p>
+                <input type="checkbox" id="dndswitch" class="checkbox"/>
+            <p id="grey">Greyscale</p>
+                <input type="checkbox" id="greyswitch" class="checkbox"/>
 
-</html>
+            <h6 id="WDtxt">Your schedule will start again when Wind Down is on</h6>
+        </div>
+        
+    {% endblock content %}
