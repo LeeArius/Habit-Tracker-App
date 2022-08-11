@@ -105,19 +105,40 @@ h6 {
 .apps {
     margin: 25px 100px;
     display:inline-block;
+    background: none;
+    position: relative;
 }
 
 .apptext{
     display: inline-block;
     position: relative;
-    top: -10%;
-    right: 30px;
+    top: -18%;
+    right: 75px;
 }
+
+.fapptxt {
+    display: inline-block;
+    position: relative;
+    top: -10%;
+    right: 25px;
+}
+
+#txt {
+    background: white;
+    color: #26252F;
+    position: relative;
+    left: 100pt;
+    top: -35pt;
+    font-size: 15px;
+    opacity: .9;
+}
+
 
 img {
     height: 75px;
     width: 75px;
     background: white;
+    border-radius: 30px;
 }
 
 #start, #time, #DND, #grey{
@@ -184,16 +205,131 @@ hr {
     margin-bottom: 2%;
 }
 
-#mon, #tue, #wed, #thu, #fri, #sat, #sun {
-    height: 10cm;
+#mon{
+    height: 13cm;
     width: 100px;
     background-color: #d9d9d9;
-    display: inline-block;
-    position: relative;
+    position: absolute;
     margin-top: 12px;
     left: 7%;
     margin-left: 4%;
     border-radius: 20px 20px 0px 0px ;
+}
+
+#tue {
+    height: 8cm;
+    width: 100px;
+    background-color: #d9d9d9;
+    position: absolute;
+    margin-top: 15%;
+    left: 18.5%;
+    margin-left: 4%;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+#wed {
+    height: 10cm;
+    width: 100px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 30%;
+    top: 55%;
+    margin-left: 4%;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+#thu {
+    height: 8cm;
+    width: 100px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 42%;
+    top: 65%;
+    margin-left: 4%;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+#fri {
+    height: 6cm;
+    width: 100px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 54%;
+    top: 85%;
+    margin-left: 4%;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+#fri {
+    height: 4cm;
+    width: 100px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 54%;
+    top: 85%;
+    margin-left: 4%;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+#sat {
+    height: 8cm;
+    width: 100px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 66%;
+    top: 73%;
+    margin-left: 4%;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+#sun {
+    height: 8cm;
+    width: 100px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 78%;
+    top: 83%;
+    margin-left: 4%;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+p#date {
+    font-weight: bold;
+    position: relative;
+    left: 32px;
+}
+
+section {
+    z-index: 1;
+}
+
+p#time {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 95%;
+    margin-top: 5%;
+}
+
+#line1 {
+    position: relative;
+    bottom: 20px;
+    opacity: .5;
+}
+#line2 {
+    position: relative;
+    bottom: 130px;
+    opacity: .5;
+}
+#line3 {
+    position: relative;
+    bottom: 245px;
+    opacity: .5;
+}
+#line4 {
+    position: relative;
+    bottom: 360px;
+    opacity: .5;
 }
 
 h5 {
@@ -202,6 +338,7 @@ h5 {
     position: relative;
     top: 18px;
 }
+
 
 
 
