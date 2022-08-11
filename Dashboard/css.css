@@ -42,15 +42,15 @@ a {
     text-decoration: none;
 }
 
-img {
+#img {
     height: 350;
-    float: left;
+    width: 350;
     margin-top: 50;
     margin-left: 200;
 }
 
 
-div {
+.div {
     position: relative;
     left: 50%;
     right: 50%;
@@ -91,11 +91,16 @@ h4 {
 }
 
 #info {
-    margin-top: 24%;
+    margin-top: 20%;
+    line-height: 1.8;
+}
+#info1 {
+    position: relative; 
+    top: 65%;
     line-height: 1.8;
 }
 
-.bigcontainer {
+#bigcontainer {
     width: 90%;
 }
 
@@ -136,11 +141,78 @@ button {
     width: 50;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 15px;
     border-radius: 35px;
     position: relative;
-    right: 47%;
-    top: 30%;
-    margin: 0 10;
+    top: -49%;
+    left: 28%;
+    margin: 0 20;
+}
+
+#DND {
+    position: relative;
+    top: 45%;
+    right: 52.5%;
+}
+
+#grey {
+    position: relative;
+    top: 62.5%;
+    right: 65.5%;
+}
+
+#dndswitch {
+    position: relative;
+    top: 45%;
+    right: 18%;
+}
+
+#greyswitch {
+    position: relative;
+    top: 52.5%;
+    left: 72.7%;
+    /* outline: 5px solid red; */
+}
+
+#MUA {
+    position: relative;
+    left: 40%;
+}
+
+img {
+    height: 75;
+    width: 75;
+}
+
+.apps {
+    margin: 25 100;
+    display:inline-block;
+}
+
+.apptext{
+    display: inline-block;
+    position: relative;
+    top: -10%;
+    right: 30;
+}
+
+#date {
+    overflow-y: hidden;
+}
+
+hr {
+    background: white;
+    margin-bottom: 2%;
+}
+
+#mon, #tue, #wed, #thu, #fri, #sat, #sun {
+    height: 65%;
+    width: 100px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    margin-top: 12px;
+    left: 7%;
+    margin-left: 4%;
+    border-radius: 20px 20px 0px 0px ;
 }

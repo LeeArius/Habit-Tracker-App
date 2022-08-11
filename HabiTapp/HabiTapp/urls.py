@@ -16,8 +16,24 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from Login import views
+from django.views.static import serve
+from django.conf.urls import url
+                          
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.HomePage)
+    path('', views.HomePage, name='HomePage'),
+    path('LoginPage/', views.LoginPage, name='LoginPage'),
+    path('SignUp/', views.SignUp, name='SignUp'),
+    path('Dashboard/', views.Dashboard, name='Dashboard'),
+    path('Dashboard/Date/', views.Date, name="Date"),
+    path('Dashboard/WD/', views.WD),
+    path('Dashboard/WD2/', views.WD2),
+    path('Dashboard/FM/', views.FM),
+    path('Dashboard/FM2/', views.FM2),
+    path('Dashboard/MUA/', views.MUA),
+    url(r'^media/(?P<path>.*)$',serve,{'document_root': settings.MEDIA_ROOT}),
+    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}),                              
 ]
+urlpatterns-urlpatterns+static(settings.MEDIA_URL,document_root-settings.MEDIA_ROOT)
+
